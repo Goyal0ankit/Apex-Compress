@@ -1,0 +1,11 @@
+build/
+.DS_Store
+.cache/
+*.apxc
+
+# Docs / markdown (requested)
+*.md
+!README.md
+docs/
+doc/
+documentation/

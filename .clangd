@@ -1,0 +1,14 @@
+# Used by clangd (Cursor / VS Code). Matches scripts/build.sh include layout.
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -Iinclude
+    - -Ibuild/generated
+    - -Ithird_party/imgui
+    - -Ithird_party/imgui/backends
+    - -isystem
+    - third_party/portable_file_dialogs
+    - -isystem
+    - /opt/homebrew/opt/glfw/include
+    - -isystem
+    - /usr/local/opt/glfw/include
